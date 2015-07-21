@@ -1,0 +1,20 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  xmlns:plone="http://namespaces.plone.org/plone"
+  i18n_domain="fbk.theme">
+
+  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot
+    directory="overrides"
+    layer="fbk.theme.interfaces.IFbkThemeLayer"
+    />
+
+  <!-- Publish static files -->
+  <browser:resourceDirectory
+    name="fbk.theme"
+    directory="static"
+    />
+
+</configure>
