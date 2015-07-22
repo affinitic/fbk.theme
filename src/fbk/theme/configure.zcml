@@ -8,6 +8,7 @@
 
   <i18n:registerTranslations directory="locales" />
 
+  <include package="cpskin.theme" />
   <include package=".browser" />
 
   <plone:static

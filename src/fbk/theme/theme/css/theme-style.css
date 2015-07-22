@@ -1,0 +1,197 @@
+body {
+    background: #F8F2DF url('../images/background.png') repeat-x top right;
+}
+
+input, p, a, div, span, textarea {
+    font-family: Open Sans;
+}
+
+input, textarea {
+    font-size: 1.0em;
+    color: #3A3A3A;
+}
+
+#content input, #content textarea {
+    border: 1px solid lightgray;
+    padding: 0.2em;
+}
+
+#content input[type=file] {
+    border: none;
+}
+
+/* Styles */
+
+#content, #content-core {
+    color: #3A3A3A;
+}
+
+h1 {
+    color: #6D391A;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #474747;
+}
+
+/* Links */
+
+a, a:link, a:visited, #content a:link, #content a:visited, dl.portlet a:link, dl.portlet a:visited {
+    color: #840802;
+    text-decoration: none;
+}
+
+a:hover { color: #A9224D }
+#content a:hover, dl.portlet a:hover { color: #A9224D !important; }
+#content a.link-overlay { border-bottom: 1px dotted #A9224D !important; }
+
+/* Header */
+
+#portal-searchbox { right: 0; }
+#livesearch0 {
+}
+.LSBox::after {
+    content: '\e807';
+    font-family: fontello;
+    font-size: 130%;
+    color: #FFF;
+    background-color: #840802;
+    padding: 0.60em 0.8em;
+    width: 1em;
+    margin: 0 -1px 0 -2px;
+}
+
+/* Menu */
+
+#portal-header #navWrapper {
+    background-color: #FADCB3;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-bottom: 2px solid #840802;
+}
+
+#portal-globalnav #portaltab-index_html a::before {
+    content: "Accueil";
+    font-family: inherit;
+    font-size: inherit;
+    color: #840802;
+}
+
+#portal-globalnav #portaltab-index_html.selected a::before, #portal-globalnav #portaltab-index_html.plain a:hover::before {
+    color: #FFF;
+}
+
+#portal-globalnav a::after { content: none; }
+
+.sf-with-ul::after {
+    content: ' \e801';
+    font-family: fontello;
+    font-size: 0.8em;
+}
+
+.theme1, .theme2, .theme3 {
+    text-transform: inherit;
+}
+
+#portal-globalnav li a, #portal-globalnav li a:link, #portal-globalnav li a:visited, #portal-globalnav li a:focus {
+    background-color: #FADCB3;
+    color: #840802;
+    margin: 0;
+    border-right: 1px dotted #FCF9EF;
+}
+
+#portal-globalnav li a.activated, #portal-globalnav li.selected a {
+    background-color: #840802;
+    color: #FFF;
+}
+
+#portal-globalnav li a:hover, #portal-globalnav li.selected a:hover {
+    background-color: #E89014;
+    color: #FFF;
+}
+
+.portal-globalnav-cpskinmenu-tabs li, .portal-globalnav-cpskinmenu li {
+    width: 32.5%;
+}
+
+ul.navTreeLevel0 {
+    background-color: #840802;
+    padding-top: 0.8em;
+}
+
+ul.navTreeLevel0 li a {
+    background-color: #FFF;
+    border-radius: 0;
+    color: #474747;
+    margin: 0 0 0.8em 1.90em;
+}
+
+.portal-globalnav-cpskinmenu a:hover, .portal-globalnav-cpskinmenutabs a:hover {
+    background-color: #DCDCDC;
+    border-radius: 0;
+    color: #474747;
+}
+
+.sf-menu ul.navTreeLevel1 {
+    background-color: #474747 !important;
+    border-top: none !important;
+    box-shadow: none;
+    margin-top: 0.8em;
+    padding-top: 0.8em;
+}
+
+.portal-globalnav-cpskinmenu .selected a, .portal-globalnav-cpskinmenu-tabs .selected a, .portal-globalnav-cpskinmenu .navTreeItemInPath > span a {
+    background-color: #DCDCDC;
+    text-decoration: none;
+}
+
+#visual-portal-wrapper #top-navigation li.sfHover > span > a {
+    background-color: #DCDCDC;
+}
+
+
+/* Content */
+
+#portal-breadcrumbs #breadcrumbs-you-are-here { display: none; }
+#portal-breadcrumbs { color: #663A14; }
+
+#content {
+    background-color: #FFF;
+    padding: 1.90em;
+    margin: 0.9em 0 2.2em 0;
+}
+
+/* Footer */
+
+#portal-footer-wrapper {
+    background-color: #FADCB3;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-top: 1px solid #fff;
+}
+
+/* CPSKIN Theme Overrides */
+#top-search-logo, #portal-footer-wrapper .row, #portal-footer {
+    background-color: inherit;
+}
+
+/* Plone Overrides */
+#edit-bar, #content-views, #contentActionMenus, #contentActionMenus dl.actionMenu a, #contentActionMenus dl.actionMenu.activated dd {
+    background-color: #840802;
+    border-color: #840802;
+}
+
+dl.actionMenu.deactivated dt, dl.actionMenu.activated dt {
+    margin: 0 0.25em;
+}
+
+dl.portlet dt {
+    padding: 0.42em 1em 0.42em 1em;
+}
+
+#portal-columns .portlet .portletItem {
+    padding: 1em;
+    background-color: #FFF;
+}
