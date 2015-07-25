@@ -229,6 +229,68 @@ ul.navTreeLevel0 li a {
     background-color: #DCDCDC;
 }
 
+/* Homepage */
+
+#homepage-buttons {
+    margin: 2em 0 0 0;
+    font-size: 100%;
+    padding: 0;
+}
+
+#homepage-buttons .button {
+    display: inline-block;
+    width: 32.3%;
+    color: #663A14;
+}
+
+#homepage-buttons ul {
+    padding: 0;
+    margin: 0 -1.9em;
+}
+
+#homepage-buttons .button a {
+    display: block;
+    font-size: 100%;
+    border-bottom: 8px solid;
+    margin: 0 0 0 1.52em;
+    padding: 0.72em 1.4em 0.9em;
+    color: #FFF !important;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#homepage-buttons .button .icon {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 0.8em;
+    margin-bottom: 0.6em;
+    border: 0;
+    padding: 0;
+    font-size: 2.6em;
+    font-family: fontello;
+}
+
+#homepage-buttons .about-kinesiology a {
+    background-color: #A9524D;
+    border-color: #840802;
+}
+
+#homepage-buttons .find-kinesiologist a {
+    background-color: #94755A;
+    border-color: #663A14;
+}
+
+#homepage-buttons .become-kinesiologist a {
+    background-color: #EFB15A;
+    border-color: #E89014;
+}
+
+#homepage-buttons .about-kinesiology .icon::before { content: '\e806'; }
+#homepage-buttons .find-kinesiologist .icon::before { content: '\e807'; }
+#homepage-buttons .become-kinesiologist .icon::before { content: '\e805'; }
+
 
 /* Content */
 
