@@ -1,0 +1,9 @@
+<div id="portal-logo">
+  <a metal:define-macro="portal_logo"
+     accesskey="1"
+     tal:attributes="href view/navigation_root_url"
+     i18n:domain="fbk.theme">
+    <img src="" tal:attributes="src string:${context/portal_url}/++resource++fbk.theme/logo.png" i18n:attributes="alt FBK" alt="Belgian Association of Kinesiologists" />
+  </a>
+  <span i18n:translate="FBK">Belgian Association of Kinesiologists</span>
+</div>

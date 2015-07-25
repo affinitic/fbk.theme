@@ -18,6 +18,15 @@
     />
 
   <browser:viewlet
+    name="plone.logo"
+    manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+    class="plone.app.layout.viewlets.common.LogoViewlet"
+    template="templates/logo.pt"
+    layer="fbk.theme.interfaces.IFbkThemeLayer"
+    permission="zope2.View"
+    />
+
+  <browser:viewlet
     name="plone.app.multilingual.languageselector"
     manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
     class="plone.app.multilingual.browser.selector.LanguageSelectorViewlet"
