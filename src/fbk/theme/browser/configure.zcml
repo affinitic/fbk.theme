@@ -54,4 +54,13 @@
     permission="zope2.View"
     />
 
+  <browser:viewlet
+    name="homepage.buttons"
+    manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+    class=".viewlets.HomepageButtonsViewlet"
+    template="templates/homepage-buttons.pt"
+    layer="fbk.theme.interfaces.IFbkThemeLayer"
+    permission="zope2.View"
+    />
+
 </configure>

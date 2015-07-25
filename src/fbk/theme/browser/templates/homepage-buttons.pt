@@ -1,0 +1,24 @@
+<div i18n:domain="fbk.theme"
+     id="homepage-buttons"
+     tal:condition="view/on_homepage">
+  <ul>
+    <li class="button about-kinesiology" i18n:translate="about_kinesiology">
+      <a href="#">
+        <span class="icon"></span>
+        About kinesiology
+      </a>
+    </li>
+    <li class="button find-kinesiologist" i18n:translate="find_kinesiologist">
+      <a href="#">
+        <span class="icon"></span>
+        Find a kinesiologist
+      </a>
+    </li>
+    <li class="button become-kinesiologist" i18n:translate="become_kinesiologist">
+      <a href="#">
+        <span class="icon"></span>
+        Become a kinesiologist
+      </a>
+    </li>
+  </ul>
+</div>

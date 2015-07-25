@@ -19,3 +19,12 @@ class FooterViewlet(common.FooterViewlet):
         if INavigationRoot.providedBy(self.context):
             return True
         return False
+
+
+class HomepageButtonsViewlet(common.ViewletBase):
+
+    def on_homepage(self):
+        """Verifiy if we are on the homepage"""
+        if INavigationRoot.providedBy(self.context):
+            return True
+        return False
