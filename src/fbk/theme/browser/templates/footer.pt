@@ -1,0 +1,44 @@
+<div i18n:domain="fbk.theme"
+     id="portal-footer">
+  <ul class="homepage" tal:condition="view/on_homepage">
+    <li class="button address">
+      <span>
+        <span class="icon"></span>
+        Rue des Li&eacute;geois, 1 - 1495 Tilly
+      </span>
+    </li>
+    <li class="button email">
+      <span>
+        <span class="icon"></span>
+        info@kinesiology-belgium.org
+      </span>
+    </li>
+    <li class="button phone">
+      <span>
+        <span class="icon"></span>
+        +32 475 77 00 16
+      </span>
+    </li>
+  </ul>
+
+  <ul tal:condition="not: view/on_homepage">
+    <li class="button about-kinesiology" i18n:translate="about_kinesiology">
+      <a href="#">
+        <span class="icon"></span>
+        About kinesiology
+      </a>
+    </li>
+    <li class="button find-kinesiologist" i18n:translate="find_kinesiologist">
+      <a href="#">
+        <span class="icon"></span>
+        Find a kinesiologist
+      </a>
+    </li>
+    <li class="button become-kinesiologist" i18n:translate="become_kinesiologist">
+      <a href="#">
+        <span class="icon"></span>
+        Become a kinesiologist
+      </a>
+    </li>
+  </ul>
+</div>

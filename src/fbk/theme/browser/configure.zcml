@@ -37,6 +37,15 @@
     />
 
   <browser:viewlet
+    name="plone.footer"
+    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+    class=".viewlets.FooterViewlet"
+    template="templates/footer.pt"
+    layer="fbk.theme.interfaces.IFbkThemeLayer"
+    permission="zope2.View"
+    />
+
+  <browser:viewlet
     name="plone.colophon"
     manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
     class="plone.app.layout.viewlets.common.FooterViewlet"
