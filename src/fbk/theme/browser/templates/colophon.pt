@@ -1,0 +1,22 @@
+<div id="portal-colophon"
+     i18n:domain="fbk.theme">
+<div class="colophonWrapper">
+<ul>
+  <li class="first">
+    <a href="http://www.affinitic.be" i18n:translate="design_by_affinitic">
+      Designed by Affinitic
+    </a>
+  </li>
+  <li class="middle">
+    <abbr>&copy;</abbr>
+    2009-<tal:year tal:content="view/year" />
+    <span i18n:translate="FBK">Belgian Association of Kinesiologists</span>
+  </li>
+  <li class="last">
+    <a href="http://plone.org" i18n:translate="label_powered_by_plone">
+      Powered by Plone &amp; Python
+    </a>
+  </li>
+</ul>
+</div>
+</div>
