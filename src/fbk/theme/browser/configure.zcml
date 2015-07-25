@@ -17,4 +17,14 @@
     directory="static"
     />
 
+  <browser:viewlet
+    name="plone.app.multilingual.languageselector"
+    manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+    class="plone.app.multilingual.browser.selector.LanguageSelectorViewlet"
+    template="templates/languages.pt"
+    for="plone.app.multilingual.interfaces.ITranslatable"
+    layer="fbk.theme.interfaces.IFbkThemeLayer"
+    permission="zope2.View"
+    />
+
 </configure>
