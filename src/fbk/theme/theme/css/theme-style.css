@@ -312,6 +312,81 @@ ul.navTreeLevel0 li a {
     border-top: 1px solid #fff;
 }
 
+#portal-footer {
+    margin: 0;
+    font-size: 100%;
+    padding: 0em 0 0.5em 0;
+}
+
+#portal-footer .button {
+    display: inline-block;
+    width: 32.3%;
+    color: #663A14;
+}
+
+#portal-footer .button a, #portal-footer .button span {
+    display: block;
+    font-size: 100%;
+    background-color: #FCE7CA;
+    border-bottom: 3px solid #FDF1E1;
+    margin: 0 0 0.8em 1.9em;
+    padding: 0.4em 1.75em;
+}
+
+#portal-footer .button span span, #portal-footer .button a span {
+    display: inline;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#portal-footer .button .icon {
+    font-size: 1.2em;
+    margin-right: 0.5em;
+    font-family: fontello;
+}
+
+#portal-footer .homepage .button .icon {
+    font-size: 1em;
+}
+
+#portal-footer .about-kinesiology a { color: #840802!important; }
+#portal-footer .find-kinesiologist a { color: #663A14!important; }
+#portal-footer .become-kinesiologist a { color: #CB7C0E!important; }
+
+#portal-footer .address .icon::before { content: '\e800'; }
+#portal-footer .email .icon::before { content: '\e808'; }
+#portal-footer .phone .icon::before { content: '\e804'; }
+#portal-footer .about-kinesiology .icon::before { content: '\e806'; }
+#portal-footer .find-kinesiologist .icon::before { content: '\e807'; }
+#portal-footer .become-kinesiologist .icon::before { content: '\e805'; }
+
+#portal-colophon {
+    font-size: 100%;
+    padding: 1em 1.9em 0.5em 1.9em;
+    color: #474747;
+    margin-top: 2em;
+}
+
+#portal-colophon a:visited, #portal-colophon a:link { color: #474747; }
+#portal-colophon a:hover { color: #840802; }
+
+#portal-colophon li { font-size: 0.7em; }
+
+#portal-colophon li.first {
+    float: left;
+    padding-left: 0;
+}
+
+#portal-colophon li.middle {
+    margin-left: 3.7em;
+}
+
+#portal-colophon li.last {
+    float: right;
+    padding-right: 0;
+}
+
 /* CPSKIN Theme Overrides */
 #top-search-logo, #portal-footer-wrapper .row, #portal-footer {
     background-color: inherit;
