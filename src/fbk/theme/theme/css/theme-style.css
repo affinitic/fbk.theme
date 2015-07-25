@@ -49,9 +49,11 @@ a:hover { color: #A9224D }
 
 /* Header */
 
-#portal-searchbox { right: 0; }
-#livesearch0 {
+#portal-searchbox {
+    right: 0;
+    top: 2.8em;
 }
+
 .LSBox::after {
     content: '\e807';
     font-family: fontello;
@@ -61,6 +63,82 @@ a:hover { color: #A9224D }
     padding: 0.60em 0.8em;
     width: 1em;
     margin: 0 -1px 0 -2px;
+}
+
+#top-actions-inner a, #top-actions-inner li a:hover {
+    color: #840802;
+}
+
+#portal-personaltools dd {
+    background-color: #840802;
+    margin-right: 0.5em;
+    margin-top: 3px;
+}
+
+#top-actions-inner .actionMenuContent a, #top-actions-inner .actionMenuContent li a:hover {
+    color: #FFF;
+}
+
+#portal-header {
+    top: 18px;
+    margin-bottom: 18px;
+}
+
+#top-languages {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#portal-personaltools {
+    border-radius: 0;
+    font-size: 0.8em;
+}
+
+#portal-personaltools {
+    top: 0.4em;
+    margin-bottom: 7px;
+}
+
+#portal-languageselector {
+    background-color: #FADCB3;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+
+#portal-languageselector li {
+    display: inline-block;
+    padding: 0.4em 1.2em 0.4em 1.2em;
+    margin-left: -0.25em;
+    border-right: 1px dotted #FFF;
+    text-transform: uppercase;
+    font-weight: normal !important;
+}
+
+#portal-languageselector li:first-child { margin-left: 0; }
+#portal-languageselector li:last-child { border: None; }
+
+#portal-languageselector .currentLanguage a:link, #portal-languageselector .currentLanguage a:visited { color: #FFF; }
+#portal-languageselector li.currentLanguage { background-color: #840802; }
+
+#portal-logo {
+    margin-top: -28px;
+}
+
+#portal-logo img {
+    display: block;
+    float: left;
+}
+
+#portal-logo span {
+    color: #6D391A;
+    font-size: 1.90em;
+    display: block;
+    margin-left: 20px;
+    margin-top: 2.5em;
+    float: left;
 }
 
 /* Menu */
@@ -194,4 +272,14 @@ dl.portlet dt {
 #portal-columns .portlet .portletItem {
     padding: 1em;
     background-color: #FFF;
+}
+
+#portal-personaltools dt.actionMenuHeader a::after {
+    content: ' \e801';
+    font-family: fontello;
+    font-size: 0.8em;
+}
+
+#portal-siteactions {
+    display: none;
 }
