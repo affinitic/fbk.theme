@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rules xmlns:xi="http://www.w3.org/2001/XInclude">
+<rules
+  xmlns="http://namespaces.plone.org/diazo"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:css="http://namespaces.plone.org/diazo/css"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xi:include href="/++theme++cpskin.theme.base/rules.xml"/>
 
   <!-- custom rules -->
+  <drop css:content="#contentview-user_data-personal-information" />
+  <drop css:content="body.template-personal-information" />
 
 </rules>
