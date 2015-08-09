@@ -34,6 +34,9 @@ h1 {
 h2 {
     font-size: 1.6em;
     color: #474747;
+    clear:both;
+    margin-bottom: 0.4em;
+    margin-top: 0.6em;
 }
 
 /* Links */
@@ -420,3 +423,107 @@ dl.portlet dt {
 #portal-siteactions {
     display: none;
 }
+
+fieldset#folder-listing {
+    display: none;
+}
+
+textarea#form-widgets-description,
+textarea#form-widgets-description_fr,
+textarea#form-widgets-description_en,
+textarea#form-widgets-description_nl {
+    height: 4.7em;
+}
+
+/* Content types styles */
+
+#viewlet-below-content-body div.listing {
+    clear: none;
+}
+
+div.listing div.container {
+    border: 1px solid #A6A6A6;
+    border-bottom: 3px solid #A6A6A6;
+    padding: 0.5em 1em;
+}
+
+div.listing {
+    margin-bottom: 0.5em;
+}
+
+.address {
+    width: 48.5%;
+    float: left;
+}
+
+.address:nth-child(even) {
+    margin-right: 3%;
+}
+
+.address .fieldErrorBox { display: none; }
+.address div.field label { display: none; }
+
+.address div.field {
+    clear: none;
+    float: left;
+}
+
+.address div#formfield-form-widgets-additional_address_details {
+    clear: left;
+}
+
+.address div#formfield-form-widgets-zip_code,
+.address div#formfield-form-widgets-province {
+    clear: left;
+    margin-right: 0.2em;
+}
+
+.address div#formfield-form-widgets-zip_code span::after,
+.address div#formfield-form-widgets-province span::after {
+    content: ' - ';
+}
+
+.formation h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#formation { padding-top: 0.5em; }
+
+#formation div.field, #formationcenter div.field {
+    float: left;
+    clear: left;
+    margin-bottom: 0;
+}
+
+#formation div.field label, #formation div.field span,
+#formationcenter div.field label, #formationcenter div.field span {
+    float: left;
+}
+
+#formation .fieldErrorBox, #formationcenter .fieldErrorBox { display: none; }
+#formation div.field label, #formationcenter div.field label { margin-right: 1em; }
+#formation div.field label::after, #formationcenter div.field label::after { content: ' : '; }
+
+#formation p, #formationcenter p {
+    margin-top: 0.7em;
+}
+
+.formationevent .fieldErrorBox { display: none; }
+
+.address div.field,
+.formationevent div.field {
+    margin-bottom: 0;
+}
+
+.formationevent div.field {
+    float: left;
+    clear: none;
+}
+
+.formationevent div.field label { margin-right: 1em; }
+.formationevent div.field span { margin-right: 3em; }
+.formationevent div.field span, .formationevent div.field label { float: left; }
+
+.formationevent div.field label::after { content: ':'; }
+.formationevent div#formfield-form-widgets-price span::after { content: '€'; }
