@@ -451,38 +451,6 @@ div.listing {
     margin-bottom: 0.5em;
 }
 
-.address {
-    width: 48.5%;
-    float: left;
-}
-
-.address:nth-child(even) {
-    margin-right: 3%;
-}
-
-.address .fieldErrorBox { display: none; }
-.address div.field label { display: none; }
-
-.address div.field {
-    clear: none;
-    float: left;
-}
-
-.address div#formfield-form-widgets-additional_address_details {
-    clear: left;
-}
-
-.address div#formfield-form-widgets-zip_code,
-.address div#formfield-form-widgets-province {
-    clear: left;
-    margin-right: 0.2em;
-}
-
-.address div#formfield-form-widgets-zip_code span::after,
-.address div#formfield-form-widgets-province span::after {
-    content: ' - ';
-}
-
 .formation h3 {
     font-size: 1em;
     font-weight: bold;
@@ -527,3 +495,85 @@ div.listing {
 
 .formationevent div.field label::after { content: ':'; }
 .formationevent div#formfield-form-widgets-price span::after { content: '€'; }
+
+#secretariat div.field label { display: none; }
+
+.address {
+    width: 48.5%;
+    float: left;
+}
+
+.address:nth-child(even) {
+    margin-right: 3%;
+}
+
+.address .fieldErrorBox { display: none; }
+.address div.field label { display: none; }
+
+.address div.field,
+#secretariat div.field {
+    clear: none;
+    float: left;
+}
+
+.address div#formfield-form-widgets-additional_address_details,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-additional_address_details {
+    clear: left;
+}
+
+.address div#formfield-form-widgets-zip_code,
+.address div#formfield-form-widgets-province,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-zip_code,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-province {
+    clear: left;
+    margin-right: 0.2em;
+}
+
+.address div#formfield-form-widgets-zip_code span::after,
+.address div#formfield-form-widgets-province span::after,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-zip_code span::after,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-province span::after {
+    content: ' - ';
+}
+
+#secretariat div#formfield-form-widgets-ICenterContactInfos-contact_email {
+    margin-top: 0.6em;
+}
+
+#secretariat div#formfield-form-widgets-ICenterContactInfos-contact_email,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-phone,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-fax,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-website {
+    clear: left;
+    margin-left: 0.1em;
+}
+
+#secretariat div#formfield-form-widgets-ICenterContactInfos-contact_email span,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-phone span,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-fax span,
+#secretariat div#formfield-form-widgets-ICenterContactInfos-website span {
+    margin-left: 0.6em;
+    float: none;
+    line-height: 1.2em;
+}
+
+#secretariat div#formfield-form-widgets-ICenterContactInfos-contact_email::before {
+    font-family: fontello;
+    content: '\e800';
+}
+
+#secretariat div#formfield-form-widgets-ICenterContactInfos-phone::before {
+    font-family: fontello;
+    content: '\e804';
+    font-size: 1.28em;
+}
+
+#secretariat div#formfield-form-widgets-ICenterContactInfos-fax::before {
+    font-family: fontello;
+    content: '\e80a';
+}
+
+#secretariat div#formfield-form-widgets-ICenterContactInfos-website::before {
+    font-family: fontello;
+    content: '\e809';
+}
