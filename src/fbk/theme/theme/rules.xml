@@ -5,9 +5,28 @@
   xmlns:css="http://namespaces.plone.org/diazo/css"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <xi:include href="/++theme++cpskin.theme.base/rules.xml"/>
+  <!-- The condition makes sure that theme is only applied when served in the
+       plone main_template. This is necessary for functional edit popups in
+       Tiny, for example. -->
+  <theme href="++theme++plone/index.html" css:if-content="#visual-portal-wrapper"/>
+
+  <!-- Head rules -->
+  <xi:include href="/++theme++plone/rules/head/ie-classes.xml"/>
+  <xi:include href="/++theme++plone/rules/head/base.xml"/>
+  <xi:include href="/++theme++plone/rules/head/theme.xml"/>
+  <xi:include href="/++theme++plone/rules/utility/responsify.xml"/>
+  <xi:include href="/++theme++plone/rules/utility/structures.xml"/>
+
+  <!-- CPKSIN Theme rules -->
+  <xi:include href="/++theme++cpskin.theme.base/rules/head.xml"/>
+  <xi:include href="/++theme++cpskin.theme.base/rules/footer.xml"/>
+  <xi:include href="/++theme++cpskin.theme.base/rules/content.xml"/>
+
+  <!-- Copy over the content -->
+  <replace css:theme="body" css:content="body" />
 
   <!-- custom rules -->
+  <xi:include href="/++theme++fbk.theme/rules/header.xml"/>
   <drop css:content="#contentview-user_data-personal-information" />
   <drop css:content="body.template-personal-information" />
 

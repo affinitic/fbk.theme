@@ -154,7 +154,7 @@ a:hover { color: #A9224D }
 }
 
 #portal-globalnav #portaltab-index_html a::before {
-    content: "Accueil";
+    content: "";
     font-family: inherit;
     font-size: inherit;
     color: #840802;
