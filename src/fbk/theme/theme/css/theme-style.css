@@ -584,3 +584,48 @@ div.listing {
     font-family: fontello;
     content: '\e809';
 }
+
+/* Faceted search */
+
+div.faceted_loading img {
+    display: none;
+}
+
+#faceted-form #top-area #faceted-top-column {
+    background-color: #ECECEC;
+    padding: 1em 0 1em 1.2em;
+    margin-bottom: 1.8em;
+}
+
+#faceted-form #faceted-top-column div div {
+    width: 33.3%;
+}
+
+#faceted-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#faceted-form .widget-fieldset legend {
+    color: #3A3A3A;
+    font-size: 1em;
+    padding: 0;
+    float: left;
+    width: 30%;
+}
+
+#faceted-form .widget-fieldset legend::after {
+    content: '  :';
+}
+
+#faceted-form .widget-fieldset select {
+    font-size: 0.9em;
+    color: #666;
+    padding: 0.2em 0.4em;
+    background: #FFF;
+    border: none;
+    width: 65%;
+    float: right;
+    -webkit-appearance: none;
+}
