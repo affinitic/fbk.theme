@@ -437,6 +437,12 @@ textarea#form-widgets-description_nl {
 
 /* Content types styles */
 
+p.description {
+    color: #5A5A5A;
+    font-style: italic;
+    margin-top: 0.5em;
+}
+
 #viewlet-below-content-body div.listing {
     clear: none;
 }
@@ -458,20 +464,21 @@ div.listing {
 
 #formation { padding-top: 0.5em; }
 
-#formation div.field, #formationcenter div.field {
+#formationfbk div.field, #formation div.field, #formationcenter div.field {
     float: left;
     clear: left;
     margin-bottom: 0;
 }
 
+#formationfbk div.field label, #formationfbk div.field span,
 #formation div.field label, #formation div.field span,
 #formationcenter div.field label, #formationcenter div.field span {
     float: left;
 }
 
-#formation .fieldErrorBox, #formationcenter .fieldErrorBox { display: none; }
-#formation div.field label, #formationcenter div.field label { margin-right: 1em; }
-#formation div.field label::after, #formationcenter div.field label::after { content: ' : '; }
+#formationfbk .fieldErrorBox, #formation .fieldErrorBox, #formationcenter .fieldErrorBox { display: none; }
+#formationfbk div.field label, #formation div.field label, #formationcenter div.field label { margin-right: 1em; }
+#formationfbk div.field label::after, #formation div.field label::after, #formationcenter div.field label::after { content: ' : '; }
 
 #formation p, #formationcenter p {
     margin-top: 0.7em;
