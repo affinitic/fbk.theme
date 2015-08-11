@@ -22,22 +22,22 @@
   </ul>
 
   <ul tal:condition="not: view/on_homepage">
-    <li class="button about-kinesiology" i18n:translate="about_kinesiology">
+    <li class="button about-kinesiology">
       <a href="#">
         <span class="icon"></span>
-        About kinesiology
+        <span i18n:translate="">About kinesiology</span>
       </a>
     </li>
-    <li class="button find-kinesiologist" i18n:translate="find_kinesiologist">
+    <li class="button find-kinesiologist">
       <a href="#">
         <span class="icon"></span>
-        Find a kinesiologist
+        <span i18n:translate="">Find a kinesiologist</span>
       </a>
     </li>
-    <li class="button become-kinesiologist" i18n:translate="become_kinesiologist">
+    <li class="button become-kinesiologist">
       <a href="#">
         <span class="icon"></span>
-        Become a kinesiologist
+        <span i18n:translate="">Become a kinesiologist</span>
       </a>
     </li>
   </ul>

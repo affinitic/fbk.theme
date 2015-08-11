@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-11 07:00+0000\n"
+"POT-Creation-Date: 2015-08-11 07:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,33 +14,30 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
+#: ../browser/templates/footer.pt:28
+#: ../browser/templates/homepage-buttons.pt:8
+msgid "About kinesiology"
+msgstr ""
+
+#: ../browser/templates/footer.pt:40
+#: ../browser/templates/homepage-buttons.pt:20
+msgid "Become a kinesiologist"
+msgstr ""
+
 #. Default: "Belgian Association of Kinesiologists"
 #: ../browser/templates/colophon.pt:13
 #: ../browser/templates/logo.pt:6
 msgid "FBK"
 msgstr ""
 
-#. Default: "<a href=\"#\"> <span class=\"icon\"></span> About kinesiology </a>"
-#: ../browser/templates/footer.pt:25
-#: ../browser/templates/homepage-buttons.pt:5
-msgid "about_kinesiology"
-msgstr ""
-
-#. Default: "<a href=\"#\"> <span class=\"icon\"></span> Become a kinesiologist </a>"
-#: ../browser/templates/footer.pt:37
-#: ../browser/templates/homepage-buttons.pt:17
-msgid "become_kinesiologist"
+#: ../browser/templates/footer.pt:34
+#: ../browser/templates/homepage-buttons.pt:14
+msgid "Find a kinesiologist"
 msgstr ""
 
 #. Default: "Designed by Affinitic"
 #: ../browser/templates/colophon.pt:6
 msgid "design_by_affinitic"
-msgstr ""
-
-#. Default: "<a href=\"#\"> <span class=\"icon\"></span> Find a kinesiologist </a>"
-#: ../browser/templates/footer.pt:31
-#: ../browser/templates/homepage-buttons.pt:11
-msgid "find_kinesiologist"
 msgstr ""
 
 #. Default: "Powered by Plone & Python"
