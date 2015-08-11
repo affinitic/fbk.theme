@@ -623,9 +623,9 @@ div.faceted_loading img {
     font-size: 0.9em;
     color: #666;
     padding: 0.2em 0.4em;
-    background: #FFF;
+    /*background: #FFF;*/
     border: none;
     width: 65%;
     float: right;
-    -webkit-appearance: none;
+    /*-webkit-appearance: none;*/
 }
