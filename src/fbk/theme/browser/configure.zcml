@@ -63,4 +63,13 @@
     permission="zope2.View"
     />
 
+  <browser:viewlet
+    name="plone.links.favicon"
+    manager="plone.app.layout.viewlets.interfaces.IHtmlHeadLinks"
+    class="plone.app.layout.links.viewlets.FaviconViewlet"
+    template="templates/favicon.pt"
+    layer="fbk.theme.interfaces.IFbkThemeLayer"
+    permission="zope2.View"
+    />
+
 </configure>
