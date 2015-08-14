@@ -470,7 +470,7 @@ div.listing {
 
 #formation { padding-top: 0.5em; }
 
-#formationfbk div.field, #formation div.field, #formationcenter div.field {
+#formationfbk div.field, #formation div.field, #formationcenter div.field, #formationevent div.field {
     float: left;
     clear: left;
     margin-bottom: 0;
@@ -478,13 +478,14 @@ div.listing {
 
 #formationfbk div.field label, #formationfbk div.field span,
 #formation div.field label, #formation div.field span,
-#formationcenter div.field label, #formationcenter div.field span {
+#formationcenter div.field label, #formationcenter div.field span,
+#formationevent div.field label, #formationevent div.field span {
     float: left;
 }
 
-#formationfbk .fieldErrorBox, #formation .fieldErrorBox, #formationcenter .fieldErrorBox { display: none; }
-#formationfbk div.field label, #formation div.field label, #formationcenter div.field label { margin-right: 1em; }
-#formationfbk div.field label::after, #formation div.field label::after, #formationcenter div.field label::after { content: ' : '; }
+#formationfbk .fieldErrorBox, #formation .fieldErrorBox, #formationcenter .fieldErrorBox, #formationevent .fieldErrorBox { display: none; }
+#formationfbk div.field label, #formation div.field label, #formationcenter div.field label, #formationevent div.field label { margin-right: 1em; }
+#formationfbk div.field label::after, #formation div.field label::after, #formationcenter div.field label::after, #formationevent div.field label::after { content: ' : '; }
 
 #formation p, #formationcenter p {
     margin-top: 0.7em;
