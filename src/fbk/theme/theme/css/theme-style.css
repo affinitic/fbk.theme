@@ -600,26 +600,45 @@ div.faceted_loading img {
 
 #faceted-form #top-area #faceted-top-column {
     background-color: #ECECEC;
-    padding: 1em 0 1em 1.2em;
+    padding: 1em 0 0.2em 1.2em;
     margin-bottom: 1.8em;
+}
+
+#faceted-form #top-area #faceted-top-column:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #faceted-form #faceted-top-column div div {
     width: 33.3%;
+    display: block;
+    float: left;
 }
+
+#faceted-form #faceted-top-column div div li {
+    float: left;
+    height: auto;
+    width: auto;
+    min-height: auto;
+    min-width: auto;
+}
+
+#faceted-form #faceted-top-column div div:nth-child(3) { clear: right; }
+#faceted-form #faceted-top-column div div:last-child { clear: right; }
 
 #faceted-form fieldset {
     border: none;
     padding: 0;
-    margin: 0;
+    margin: 0 1.2em 0.8em 0;
 }
 
 #faceted-form .widget-fieldset legend {
     color: #3A3A3A;
-    font-size: 1em;
+    font-size: 0.8em;
     padding: 0;
     float: left;
-    width: 30%;
+    width: 38%;
 }
 
 #faceted-form .widget-fieldset legend::after {
@@ -632,7 +651,7 @@ div.faceted_loading img {
     padding: 0.2em 0.4em;
     /*background: #FFF;*/
     border: none;
-    width: 65%;
+    width: 60%;
     float: right;
     /*-webkit-appearance: none;*/
 }
