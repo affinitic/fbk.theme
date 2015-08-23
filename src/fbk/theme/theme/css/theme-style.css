@@ -735,6 +735,7 @@ div.faceted_loading img {
 }
 
 #faceted-form .widget-fieldset select {
+    height: 1.9em;
     font-size: 0.9em;
     color: #666;
     padding: 0.2em 0.4em;
@@ -743,4 +744,27 @@ div.faceted_loading img {
     width: 60%;
     float: right;
     /*-webkit-appearance: none;*/
+}
+
+.faceted-widget-loading {
+    background-image: None;
+}
+
+#faceted-form .faceted-text-widget legend {
+    display: None;
+}
+
+#faceted-form .faceted-text-widget input {
+    font-size: 0.9em;
+    width: 17em;
+    max-width: 250px;
+}
+
+#faceted-form .faceted-text-widget input.searchButton {
+    width: auto;
+    background-color: #333;
+    border: 1px solid #333;
+    color: #FFF;
+    padding: 0.1em;
+    margin-left: -0.4em;
 }
