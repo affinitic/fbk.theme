@@ -470,10 +470,13 @@ div.listing {
 
 #formation { padding-top: 0.5em; }
 
-#formationfbk div.field, #formation div.field, #formationcenter div.field, #formationevent div.field {
+#formationfbk div.field,
+#formation div.field,
+#formationcenter div.field,
+#formationevent div.field {
     float: left;
     clear: left;
-    margin-bottom: 0;
+    margin-bottom: 0.2em;
 }
 
 #formationfbk div.field label, #formationfbk div.field span,
@@ -483,9 +486,27 @@ div.listing {
     float: left;
 }
 
-#formationfbk .fieldErrorBox, #formation .fieldErrorBox, #formationcenter .fieldErrorBox, #formationevent .fieldErrorBox { display: none; }
-#formationfbk div.field label, #formation div.field label, #formationcenter div.field label, #formationevent div.field label { margin-right: 1em; }
-#formationfbk div.field label::after, #formation div.field label::after, #formationcenter div.field label::after, #formationevent div.field label::after { content: ' : '; }
+#kinesiologist .fieldErrorBox,
+#formationfbk .fieldErrorBox,
+#formation .fieldErrorBox,
+#formationcenter .fieldErrorBox,
+#formationevent .fieldErrorBox {
+    display: none;
+}
+
+#formationfbk div.field label,
+#formation div.field label,
+#formationcenter div.field label,
+#formationevent div.field label {
+    margin-right: 1em;
+}
+
+#formationfbk div.field label::after,
+#formation div.field label::after,
+#formationcenter div.field label::after,
+#formationevent div.field label::after {
+    content: ' : ';
+}
 
 #formation p, #formationcenter p {
     margin-top: 0.7em;
@@ -565,18 +586,26 @@ div.listing {
 #secretariat div#formfield-form-widgets-ICenterContactInfos-contact_email span,
 #secretariat div#formfield-form-widgets-ICenterContactInfos-phone span,
 #secretariat div#formfield-form-widgets-ICenterContactInfos-fax span,
-#secretariat div#formfield-form-widgets-ICenterContactInfos-website span {
+#secretariat div#formfield-form-widgets-ICenterContactInfos-website span,
+#kinesiologist div#formfield-form-widgets-IMembraneContactInfos-email span,
+#kinesiologist div#formfield-form-widgets-IMembraneContactInfos-phone span,
+#kinesiologist div#formfield-form-widgets-IMembraneContactInfos-cell_phone span,
+#kinesiologist div#formfield-form-widgets-IMembraneContactInfos-website span,
+#kinesiologist div#formfield-form-widgets-languages span {
     margin-left: 0.6em;
     float: none;
     line-height: 1.2em;
 }
 
-#secretariat div#formfield-form-widgets-ICenterContactInfos-contact_email::before {
+#secretariat div#formfield-form-widgets-ICenterContactInfos-contact_email::before,
+#kinesiologist div#formfield-form-widgets-IMembraneContactInfos-email::before {
     font-family: fontello;
     content: '\e800';
 }
 
-#secretariat div#formfield-form-widgets-ICenterContactInfos-phone::before {
+#secretariat div#formfield-form-widgets-ICenterContactInfos-phone::before,
+#kinesiologist div#formfield-form-widgets-IMembraneContactInfos-phone::before,
+#kinesiologist div#formfield-form-widgets-IMembraneContactInfos-cell_phone::before {
     font-family: fontello;
     content: '\e804';
     font-size: 1.28em;
@@ -587,9 +616,31 @@ div.listing {
     content: '\e80a';
 }
 
-#secretariat div#formfield-form-widgets-ICenterContactInfos-website::before {
+#secretariat div#formfield-form-widgets-ICenterContactInfos-website::before,
+#kinesiologist div#formfield-form-widgets-IMembraneContactInfos-website::before {
     font-family: fontello;
     content: '\e809';
+}
+
+#kinesiologist div.field label { display: none; }
+#kinesiologist div.field { margin-bottom: 0.4em; }
+
+#kinesiologist div#formfield-form-widgets-languages::before {
+    font-family: fontello;
+    content: '\e802';
+}
+
+#kinesiologist div#formfield-form-widgets-languages span span { margin: 0; }
+
+#kinesiologist img.picture {
+    border: 1px solid #C7C7C7;
+    margin-bottom: 0.5em;
+}
+
+#kinesiologist div.field {
+    float: left;
+    clear: none;
+    width: 50%;
 }
 
 /* Faceted search */
