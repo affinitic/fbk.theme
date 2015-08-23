@@ -768,3 +768,7 @@ div.faceted_loading img {
     padding: 0.1em;
     margin-left: -0.4em;
 }
+
+#faceted-form #center-content-area #faceted-results .listingBar a:hover {
+    border: 1px solid #840802;
+}
