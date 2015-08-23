@@ -597,7 +597,8 @@ div.listing {
 .kinesiologist div#formfield-form-widgets-IMembraneContactInfos-phone span,
 .kinesiologist div#formfield-form-widgets-IMembraneContactInfos-cell_phone span,
 .kinesiologist div#formfield-form-widgets-IMembraneContactInfos-website span,
-.kinesiologist div#formfield-form-widgets-languages span {
+.kinesiologist div#formfield-form-widgets-languages span,
+.kinesiologist div#cities span {
     margin-left: 0.6em;
     float: none;
     line-height: 1.2em;
@@ -640,6 +641,11 @@ div.listing {
 .kinesiologist div#formfield-form-widgets-languages::before {
     font-family: fontello;
     content: '\e802';
+}
+
+.kinesiologist div#cities::before {
+    font-family: fontello;
+    content: '\e803';
 }
 
 #kinesiologist div#formfield-form-widgets-languages span span,
