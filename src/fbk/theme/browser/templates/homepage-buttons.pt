@@ -1,21 +1,25 @@
 <div i18n:domain="fbk.theme"
      id="homepage-buttons"
      tal:condition="view/on_homepage">
-  <ul>
+  <ul tal:define="links view/links;
+                  root_url view/root_url">
     <li class="button about-kinesiology">
-      <a href="#">
+      <a href=""
+         tal:attributes="href string: ${root_url}/${links/link_about}">
         <span class="icon"></span>
         <span i18n:translate="">About kinesiology</span>
       </a>
     </li>
     <li class="button find-kinesiologist">
-      <a href="#">
+      <a href=""
+         tal:attributes="href string: ${root_url}/${links/link_find}">
         <span class="icon"></span>
         <span i18n:translate="">Find a kinesiologist</span>
       </a>
     </li>
     <li class="button become-kinesiologist">
-      <a href="#">
+      <a href=""
+         tal:attributes="href string: ${root_url}/${links/link_become}">
         <span class="icon"></span>
         <span i18n:translate="">Become a kinesiologist</span>
       </a>

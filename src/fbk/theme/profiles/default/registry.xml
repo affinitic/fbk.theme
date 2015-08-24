@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<registry>
+  <records interface="fbk.theme.interfaces.IFBKSettings">
+    <value key="link_about_fr" purge="false"></value>
+    <value key="link_find_fr" purge="false"></value>
+    <value key="link_become_fr" purge="false"></value>
+    <value key="link_about_en" purge="false"></value>
+    <value key="link_find_en" purge="false"></value>
+    <value key="link_become_en" purge="false"></value>
+    <value key="link_about_nl" purge="false"></value>
+    <value key="link_find_nl" purge="false"></value>
+    <value key="link_become_nl" purge="false"></value>
+  </records>
+</registry>
