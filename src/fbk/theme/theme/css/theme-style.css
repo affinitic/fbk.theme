@@ -687,6 +687,10 @@ div.kinesiologist div.container {
     margin-top: -0.35em;
 }
 
+#formationcenter div.field span {
+    float: none;
+}
+
 /* Faceted search */
 
 div.faceted_loading img {
