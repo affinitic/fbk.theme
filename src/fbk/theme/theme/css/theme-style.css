@@ -238,6 +238,24 @@ ul.navTreeLevel0 li a {
     background-color: #DCDCDC;
 }
 
+#portal-globalnav li:last-child {
+    float: right;
+}
+
+#portal-globalnav li:first-child {
+    float: none;
+}
+
+#portal-globalnav li:last-child a, #portal-globalnav li:last-child a:link, #portal-globalnav li:last-child a:visited, #portal-globalnav li:last-child a:focus {
+    border-right: none;
+    border-left: 1px dotted #fcf9ef;
+}
+
+#portal-globalnav li:first-child a, #portal-globalnav li:first-child a:link, #portal-globalnav li:first-child a:visited, #portal-globalnav li:first-child a:focus {
+    border-right: 1px dotted #fcf9ef;
+    border-left: none;
+}
+
 /* Homepage */
 
 #homepage-buttons {
@@ -746,6 +764,7 @@ div.faceted_loading img {
     padding: 0;
     float: left;
     width: 38%;
+    text-align: right;
 }
 
 #faceted-form .widget-fieldset legend::after {
