@@ -455,7 +455,8 @@ fieldset#folder-listing {
 textarea#form-widgets-description,
 textarea#form-widgets-description_fr,
 textarea#form-widgets-description_en,
-textarea#form-widgets-description_nl {
+textarea#form-widgets-description_nl,
+textarea#form-widgets-lessons {
     height: 4.7em;
 }
 
