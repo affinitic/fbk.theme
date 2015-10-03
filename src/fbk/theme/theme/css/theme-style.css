@@ -336,6 +336,21 @@ ul.navTreeLevel0 li a {
     padding: 0em 0 0.5em 0;
 }
 
+#portal-footer ul.homepage {
+    margin: 0 1.75em;
+    background-color: #fce7ca;
+    border-bottom: 3px solid #fdf1e1;
+    text-align: center;
+}
+
+#portal-footer ul.homepage li {
+    margin: 0;
+    padding: 0.4em 0;
+    width: 33.2%;
+    text-align: center;
+    display: inline-block;
+}
+
 #portal-footer .button {
     display: inline-block;
     width: 32.3%;
@@ -358,13 +373,13 @@ ul.navTreeLevel0 li a {
     padding: 0;
 }
 
-#portal-footer .button .icon {
+#portal-footer .button .icon, #portal-footer li .icon {
     font-size: 1.2em;
     margin-right: 0.5em;
     font-family: fontello;
 }
 
-#portal-footer .homepage .button .icon {
+#portal-footer .homepage li .icon {
     font-size: 1em;
 }
 

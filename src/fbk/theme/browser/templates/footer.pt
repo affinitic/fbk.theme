@@ -1,19 +1,19 @@
 <div i18n:domain="fbk.theme"
      id="portal-footer">
   <ul class="homepage" tal:condition="view/on_homepage">
-    <li class="button address">
+    <li class="address">
       <span>
         <span class="icon"></span>
         Rue des Li&eacute;geois, 1 - 1495 Tilly
       </span>
     </li>
-    <li class="button email">
+    <li class="email">
       <span>
         <span class="icon"></span>
         info@kinesiology-belgium.org
       </span>
     </li>
-    <li class="button phone">
+    <li class="phone">
       <span>
         <span class="icon"></span>
         +32 475 77 00 16
