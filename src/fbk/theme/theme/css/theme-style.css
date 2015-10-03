@@ -716,6 +716,15 @@ div.kinesiologist div.container {
     float: none;
 }
 
+input#form-widgets-price {
+    width: 6em;
+    text-align: right;
+}
+
+div#formfield-form-widgets-price::after {
+    content: " €";
+}
+
 /* Faceted search */
 
 div.faceted_loading img {
