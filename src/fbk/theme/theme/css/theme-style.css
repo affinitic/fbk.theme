@@ -721,7 +721,7 @@ input#form-widgets-price {
     text-align: right;
 }
 
-div#formfield-form-widgets-price::after {
+form#form div#formfield-form-widgets-price::after {
     content: " €";
 }
 
