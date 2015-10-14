@@ -78,7 +78,7 @@ a:hover { color: #A9224D }
     color: #840802;
 }
 
-#portal-personaltools dd {
+#portal-personaltools dd, #personaltools dd {
     background-color: #840802;
     margin-right: 0.5em;
     margin-top: 3px;
@@ -98,13 +98,13 @@ a:hover { color: #A9224D }
     max-width: 1200px;
 }
 
-#portal-personaltools {
+#portal-personaltools, #personaltools {
     border-radius: 0;
     font-size: 0.8em;
 }
 
-#portal-personaltools {
-    top: 0.4em;
+#portal-personaltools, #personaltools {
+    margin-top: 0.4em;
     margin-bottom: 7px;
 }
 
