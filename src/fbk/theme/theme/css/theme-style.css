@@ -707,10 +707,14 @@ div.kinesiologist div.container {
 }
 
 .kinesiologist h3 {
-    width: 50%;
+    width: 100%;
     font-size: 1em;
     font-weight: bold;
     margin-top: -0.35em;
+}
+
+.kinesiologist h3 span.member-type {
+    font-style: italic;
 }
 
 #formationcenter div.field span {
