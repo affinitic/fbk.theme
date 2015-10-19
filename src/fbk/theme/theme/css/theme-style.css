@@ -715,6 +715,9 @@ div.kinesiologist div.container {
 
 .kinesiologist h3 span.member-type {
     font-style: italic;
+    position: absolute;
+    right: 1em;
+    top: 0.8em;
 }
 
 #formationcenter div.field span {
