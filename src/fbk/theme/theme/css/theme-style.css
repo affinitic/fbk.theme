@@ -556,7 +556,7 @@ div.listing {
 .formationevent div.field span, .formationevent div.field label { float: left; }
 
 .formationevent div.field label::after { content: ':'; }
-.formationevent div#formfield-form-widgets-price span::after { content: '€'; }
+.formationevent div#formfield-form-widgets-price span::after { content: ' €'; }
 
 #secretariat div.field label { display: none; }
 
@@ -734,7 +734,7 @@ input#form-widgets-price {
     text-align: right;
 }
 
-form#form div#formfield-form-widgets-price::after, div#formationevent div#formfield-form-widgets-price::after {
+form#form div#formfield-form-widgets-price::after, div#formationevent div#formfield-form-widgets-price span::after {
     content: " €";
 }
 
