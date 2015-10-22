@@ -741,6 +741,20 @@ form#form div#formfield-form-widgets-price::after, div#formationevent div#formfi
     content: " €";
 }
 
+.field-date span,
+.formationevent div.field-date span {
+    margin-right: 1em;
+}
+
+.formationevent div.field-date {
+    margin-right: 2em;
+}
+
+.formationevent div.field-date span.separator {
+    margin-left: -2em;
+    margin-right: 1em;
+}
+
 /* Faceted search */
 
 div.faceted_loading img {
