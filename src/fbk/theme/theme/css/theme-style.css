@@ -690,6 +690,25 @@ div.listing {
     width: 50%;
 }
 
+#kinesiologist table.datagridwidget-table-view {
+    margin-bottom: 0;
+}
+
+#kinesiologist h2 {
+    clear: both;
+    padding: 1em 0 0.5em 0;
+}
+
+#kinesiologist div#formfield-form-widgets-followed_trainings,
+#kinesiologist div#formfield-form-widgets-membership_fees {
+    clear: both;
+    margin: 0;
+}
+
+#kinesiologist table.datagridwidget-table-view .header span.required {
+    display: none;
+}
+
 div.kinesiologist div.container {
     padding: 1em 1em 0.8em 1em;
 }
@@ -753,6 +772,35 @@ form#form div#formfield-form-widgets-price::after, div#formationevent div#formfi
 .formationevent div.field-date span.separator {
     margin-left: -2em;
     margin-right: 1em;
+}
+
+table.datagridwidget-table-view {
+    border: 1px solid #c7c7c7;
+}
+
+table.datagridwidget-table-view td, table.datagridwidget-table-view th.header {
+    padding: 0.4em;
+}
+
+table.datagridwidget-table-view select {
+    margin-top: 4px;
+}
+
+table.datagridwidget-table-view tr:nth-child(even) {
+    background-color: #FFF;
+}
+
+table.datagridwidget-table-view tr.auto-append {
+    background-color: #56A75B;
+}
+
+#content .field table.datagridwidget-table-view td.datagridwidget-cell input[type="text"][name$=".title"] {
+    font-size: 1em;
+    line-height: inherit;
+    letter-spacing: 0;
+    font-weight: normal;
+    font-family: inherit;
+    padding: 0.2em;
 }
 
 /* Faceted search */
