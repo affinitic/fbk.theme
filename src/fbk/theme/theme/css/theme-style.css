@@ -838,8 +838,11 @@ table.z3c-listing tr.odd {
 #content #management div.faceted-widget input {
     padding: 0.1em;
     margin-left: 0.5em;
-    width: 5em;
+    width: 30%;
 }
+
+#content #management #faceted-form .widget-fieldset legend { width: 60%; }
+#content #management #faceted-form .widget-fieldset select { width: 38%; }
 
 /* Faceted search */
 
