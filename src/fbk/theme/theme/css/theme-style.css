@@ -803,6 +803,44 @@ table.datagridwidget-table-view tr.auto-append {
     padding: 0.2em;
 }
 
+table.z3c-listing {
+    width: 100%;
+    border: 1px solid #c7c7c7;
+}
+
+table.z3c-listing th, table.z3c-listing td {
+    padding: 0.2em;
+}
+
+table.z3c-listing th {
+    background-color: #DDD;
+    color: #666;
+}
+
+table.z3c-listing tr.odd {
+    background-color: #EEE;
+}
+
+#content #management div.listingBar a:link, #content #management div.listingBar a:visited {
+    border: 1px solid #ccc;
+}
+
+#content #management div.listingBar a:hover {
+    border: 1px solid #840802;
+    background-color: #FFF;
+}
+
+#content #management input#submit {
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+
+#content #management div.faceted-widget input {
+    padding: 0.1em;
+    margin-left: 0.5em;
+    width: 5em;
+}
+
 /* Faceted search */
 
 div.faceted_loading img {
