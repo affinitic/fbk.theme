@@ -844,6 +844,8 @@ table.z3c-listing tr.odd {
 #content #management #faceted-form .widget-fieldset legend { width: 60%; }
 #content #management #faceted-form .widget-fieldset select { width: 38%; }
 
+tbody.datagridwidget-body td.datagridwidget-cell a.caltrigger { display: none!important; }
+
 /* Faceted search */
 
 div.faceted_loading img {
