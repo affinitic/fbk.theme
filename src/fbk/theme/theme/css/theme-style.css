@@ -869,6 +869,7 @@ div.faceted_loading img {
 
 #faceted-form #faceted-top-column div div {
     width: 33.3%;
+    height: 60px;
     display: block;
     float: left;
 }
